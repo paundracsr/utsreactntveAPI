@@ -66,7 +66,7 @@ const App = () => {
       <TextInput
         style={styles.searchBar}
         placeholder="Cari Berita..."
-        placeholderTextColor="#dcdcdc" // Light placeholder text
+        placeholderTextColor="#dcdcdc"  
         value={searchQuery}
         onChangeText={handleSearch}
       />
@@ -84,52 +84,52 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#121212', // Dark background for the app
-    paddingTop: 30, // Keep the paddingTop as per the previous style
-    paddingHorizontal: 20, // Padding on the sides
+    backgroundColor: '#121212',  
+    paddingTop: 30,  
+    paddingHorizontal: 20,  
   },
   loader: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#121212', // Dark background for loader
+    backgroundColor: '#121212', /
   },
   header: {
-    fontSize: 36, // Slightly bigger font for header
+    fontSize: 36, 
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 20,
-    color: '#ffffff', // White text color for the header
-    fontFamily: 'Roboto', // Modern and clean font
+    color: '#ffffff',  
+    fontFamily: 'Roboto',  
   },
   searchBar: {
-    marginBottom: 20, // To add space below the search bar
-    borderRadius: 8,  // Rounded corners for the search bar
-    backgroundColor: '#333333', // Dark background for search bar
-    paddingHorizontal: 15, // Padding inside the search bar
+    marginBottom: 20, 
+    borderRadius: 8,  
+    backgroundColor: '#333333',  
+    paddingHorizontal: 15,  
     paddingVertical: 11,
-    color: '#ffffff', // White text color
-    height: 50, // Adjusted height for better appearance
+    color: '#ffffff',  
+    height: 50,  
   },
-  // For placeholder text appearance (optional)
+ 
   searchBarPlaceholder: {
-    color: '#dcdcdc', // Lighter color for the placeholder text
-    fontSize: 14, // Smaller font size for the placeholder
+    color: '#dcdcdc',  
+    fontSize: 14,  
   },
   card: {
     marginBottom: 20,
-    backgroundColor: '#1e1e1e', // Darker gray for card background
-    borderRadius: 15, // Rounded corners for the card
+    backgroundColor: '#1e1e1e',
+    borderRadius: 15, 
     overflow: 'hidden',
-    elevation: 5, // Shadow effect for the card
-    borderWidth: 1, // Subtle border around the card
-    borderColor: '#444', // Slightly darker border for cards
+    elevation: 5, 
+    borderWidth: 1, 
+    borderColor: '#444', 
   },
   image: {
-    width: '100%', // Full width of the card for the image
-    height: 220, // Fixed height for the image
+    width: '100%', 
+    height: 220, 
     borderTopLeftRadius: 15,
-    borderTopRightRadius: 15, // Rounded corners for image
+    borderTopRightRadius: 15, 
   },
   cardContent: {
     padding: 15,
@@ -138,12 +138,12 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     marginBottom: 8,
-    color: '#ffffff', // White text color for title
-    fontFamily: 'Roboto', // Elegant and modern font
+    color: '#ffffff', 
+    fontFamily: 'Roboto', 
   },
   description: {
     fontSize: 14,
-    color: '#dcdcdc', // Lighter gray color for description
+    color: '#dcdcdc', 
     lineHeight: 20,
   },
 });
